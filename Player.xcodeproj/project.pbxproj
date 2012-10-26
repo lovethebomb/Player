@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1DB8E5163A744B00948597 /* keyboard_cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB1DB8E4163A744B00948597 /* keyboard_cat.mp4 */; };
 		BB85EE0316397CC100B13936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB85EE0216397CC100B13936 /* UIKit.framework */; };
 		BB85EE0516397CC100B13936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB85EE0416397CC100B13936 /* Foundation.framework */; };
 		BB85EE0716397CC100B13936 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB85EE0616397CC100B13936 /* CoreGraphics.framework */; };
@@ -18,9 +19,18 @@
 		BB85EE1916397CC200B13936 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB85EE1816397CC200B13936 /* Default-568h@2x.png */; };
 		BB85EE1C16397CC200B13936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB85EE1B16397CC200B13936 /* ViewController.m */; };
 		BB85EE1F16397CC200B13936 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB85EE1D16397CC200B13936 /* ViewController.xib */; };
+		BB85EE2616397CD600B13936 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB85EE2516397CD600B13936 /* AudioToolbox.framework */; };
+		BB85EE2916397D0100B13936 /* foxylady.m4v in Resources */ = {isa = PBXBuildFile; fileRef = BB85EE2716397D0100B13936 /* foxylady.m4v */; };
+		BB85EE2A16397D0100B13936 /* foxylady.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB85EE2816397D0100B13936 /* foxylady.mp3 */; };
+		BB85EE2C16397DE300B13936 /* katz_player.png in Resources */ = {isa = PBXBuildFile; fileRef = BB85EE2B16397DE300B13936 /* katz_player.png */; };
+		BB85EE3316397E9E00B13936 /* a3.aif in Resources */ = {isa = PBXBuildFile; fileRef = BB85EE3216397E9E00B13936 /* a3.aif */; };
+		BB85EE351639854400B13936 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB85EE341639854400B13936 /* AVFoundation.framework */; };
+		BB85EE371639854A00B13936 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB85EE361639854A00B13936 /* MediaPlayer.framework */; };
+		BB85EE391639868300B13936 /* keyboard_cat_ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB85EE381639868300B13936 /* keyboard_cat_ringtone.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB1DB8E4163A744B00948597 /* keyboard_cat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = keyboard_cat.mp4; path = ../../../Downloads/keyboard_cat.mp4; sourceTree = "<group>"; };
 		BB85EDFE16397CC100B13936 /* Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB85EE0216397CC100B13936 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BB85EE0416397CC100B13936 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,14 @@
 		BB85EE1A16397CC200B13936 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BB85EE1B16397CC200B13936 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BB85EE1E16397CC200B13936 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BB85EE2516397CD600B13936 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB85EE2716397D0100B13936 /* foxylady.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = foxylady.m4v; path = Player/foxylady.m4v; sourceTree = SOURCE_ROOT; };
+		BB85EE2816397D0100B13936 /* foxylady.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = foxylady.mp3; path = Player/foxylady.mp3; sourceTree = SOURCE_ROOT; };
+		BB85EE2B16397DE300B13936 /* katz_player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = katz_player.png; sourceTree = "<group>"; };
+		BB85EE3216397E9E00B13936 /* a3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = a3.aif; path = Player/a3.aif; sourceTree = SOURCE_ROOT; };
+		BB85EE341639854400B13936 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BB85EE361639854A00B13936 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BB85EE381639868300B13936 /* keyboard_cat_ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = keyboard_cat_ringtone.mp3; path = ../../../Desktop/keyboard_cat_ringtone.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB85EE371639854A00B13936 /* MediaPlayer.framework in Frameworks */,
+				BB85EE351639854400B13936 /* AVFoundation.framework in Frameworks */,
+				BB85EE2616397CD600B13936 /* AudioToolbox.framework in Frameworks */,
 				BB85EE0316397CC100B13936 /* UIKit.framework in Frameworks */,
 				BB85EE0516397CC100B13936 /* Foundation.framework in Frameworks */,
 				BB85EE0716397CC100B13936 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +77,10 @@
 		BB85EDF316397CC100B13936 = {
 			isa = PBXGroup;
 			children = (
+				BB85EE361639854A00B13936 /* MediaPlayer.framework */,
+				BB85EE341639854400B13936 /* AVFoundation.framework */,
+				BB85EE2B16397DE300B13936 /* katz_player.png */,
+				BB85EE2516397CD600B13936 /* AudioToolbox.framework */,
 				BB85EE0816397CC100B13936 /* Player */,
 				BB85EE0116397CC100B13936 /* Frameworks */,
 				BB85EDFF16397CC100B13936 /* Products */,
@@ -83,6 +108,11 @@
 		BB85EE0816397CC100B13936 /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				BB85EE2716397D0100B13936 /* foxylady.m4v */,
+				BB85EE381639868300B13936 /* keyboard_cat_ringtone.mp3 */,
+				BB1DB8E4163A744B00948597 /* keyboard_cat.mp4 */,
+				BB85EE3216397E9E00B13936 /* a3.aif */,
+				BB85EE2816397D0100B13936 /* foxylady.mp3 */,
 				BB85EE1116397CC200B13936 /* AppDelegate.h */,
 				BB85EE1216397CC200B13936 /* AppDelegate.m */,
 				BB85EE1A16397CC200B13936 /* ViewController.h */,
@@ -163,6 +193,12 @@
 				BB85EE1716397CC200B13936 /* Default@2x.png in Resources */,
 				BB85EE1916397CC200B13936 /* Default-568h@2x.png in Resources */,
 				BB85EE1F16397CC200B13936 /* ViewController.xib in Resources */,
+				BB85EE2916397D0100B13936 /* foxylady.m4v in Resources */,
+				BB85EE2A16397D0100B13936 /* foxylady.mp3 in Resources */,
+				BB85EE2C16397DE300B13936 /* katz_player.png in Resources */,
+				BB85EE3316397E9E00B13936 /* a3.aif in Resources */,
+				BB85EE391639868300B13936 /* keyboard_cat_ringtone.mp3 in Resources */,
+				BB1DB8E5163A744B00948597 /* keyboard_cat.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +326,7 @@
 				BB85EE2416397CC200B13936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
